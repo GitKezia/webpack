@@ -2,8 +2,8 @@ import './styles.scss'
 import img from './matrix.jpg'
 
 function rootStyle(){
-    const elemRoot = document.gerElementById('root')
-    elemRoot.classList.add('container')
+    const elemRoot = document.getElementById('root')
+          elemRoot.classList.add('container')
 
 }
 
@@ -20,6 +20,6 @@ function imageComponent() {
     return elemImg
 }
 
-rootStyle
+rootStyle();
 document.body.appendChild(titleComponent())
 document.body.appendChild(imageComponent())
